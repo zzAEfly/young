@@ -1,0 +1,21 @@
+/* #elment{
+    -moz-animation: keyframe duration;
+    -ms-animation:keyframe duration;
+    -o-animation: keyframe duration;
+    -webkit-animation: keyframe duration;
+    animation: keyframe duration;
+} */
+
+
+
+@-webkit-keyframes pulse{
+    0%{width: 0;}
+    100%{width: 100%}
+}
+
+#progress{
+    height: 2px;
+    background: #b91f1f;
+    -webkit-animation: pulse 3s;
+    transition: opacity 500ms linear;
+}
